@@ -16,7 +16,7 @@ function objectMethods(obj) {
 
   let newObj = Object.assign({}, obj, { newProperty: "newValue" });
   console.log("After Object.assign():", newObj);
-
+  
 
 }
 
